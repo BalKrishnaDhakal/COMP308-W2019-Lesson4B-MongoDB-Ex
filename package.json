@@ -1,21 +1,30 @@
 {
-    "name": "comp308-w2019-lesson3b",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "start": "node ./bin/www"
-    },
-    "dependencies": {
-        "@types/node": "^10.12.18",
-        "cookie-parser": "~1.4.3",
-        "debug": "~2.6.9",
-        "ejs": "~2.5.7",
-        "express": "^4.16.4",
-        "http-errors": "~1.6.2",
-        "morgan": "~1.9.0"
-    },
-    "description": "Expree Generator Demo",
-    "main": "server.js",
-    "author": "Bal Dhakal",
-    "license": "ISC"
+  "name": "comp308-w2019-lesson3b",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  },
+  "description": "Expree Generator Demo",
+  "main": "server.js",
+  "author": "Bal Dhakal",
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalKrishnaDhakal/COMP308-W2019-Lesson3B-Bal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BalKrishnaDhakal/COMP308-W2019-Lesson3B-Bal/issues"
+  },
+  "homepage": "https://github.com/BalKrishnaDhakal/COMP308-W2019-Lesson3B-Bal#readme"
 }
