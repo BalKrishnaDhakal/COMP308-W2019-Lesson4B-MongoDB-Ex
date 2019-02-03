@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2019-lesson3b",
+  "name": "comp308-w2019-lesson4b",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -15,20 +15,23 @@
     "font-awesome": "^4.7.0",
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
+    "mongoose": "^5.4.9",
     "morgan": "~1.9.0",
     "popper.js": "^1.14.6"
   },
-  "description": "Expree Generator Demo",
+  "description": "Momgo and Mongos Demo",
   "main": "server.js",
   "author": "Bal Dhakal",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/mongoose": "^5.3.12"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BalKrishnaDhakal/COMP308-W2019-Lesson3B-Bal.git"
+    "url": "git+https://github.com/BalKrishnaDhakal/COMP308-W2019-Lesson4B.git"
   },
   "bugs": {
-    "url": "https://github.com/BalKrishnaDhakal/COMP308-W2019-Lesson3B-Bal/issues"
+    "url": "https://github.com/BalKrishnaDhakal/COMP308-W2019-Lesson4B/issues"
   },
-  "homepage": "https://github.com/BalKrishnaDhakal/COMP308-W2019-Lesson3B-Bal#readme"
+  "homepage": "https://github.com/BalKrishnaDhakal/COMP308-W2019-Lesson4B#readme"
 }
