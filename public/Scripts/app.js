@@ -1,9 +1,11 @@
-// Custome javaScripts goes here IIFF --Immediatly Invoked Functiin Expression
+// IIFE -- Immediately Invoked Function Expression
 (function() {
-    function start() {
-        console.log(`%c App Started...`, "font-size:20px;color:blue;font-weight:bold");
 
+    function Start() {
+        console.log(`%c App Started...`,
+            "font-size: 20px; color: blue; font-weight: bold");
     }
-    window.addEventListener("load", start);
+
+    window.addEventListener("load", Start);
 
 })();
