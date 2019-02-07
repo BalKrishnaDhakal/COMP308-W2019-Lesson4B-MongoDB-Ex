@@ -21,9 +21,9 @@ router.get('/services', function(req, res, next) {
     res.render('index', { title: 'Services' });
 });
 
-/* GET contact page. */
-router.get('/contact', function(req, res, next) {
-    res.render('index', { title: 'Contact' });
+/* GET Favourite page. */
+router.get('/favourite', function(req, res, next) {
+    res.render('index', { title: 'Favourite' });
 });
 
 

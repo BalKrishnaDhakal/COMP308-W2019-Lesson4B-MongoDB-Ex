@@ -3,19 +3,19 @@ let router = express.Router();
 let mongoose = require('mongoose');
 
 // create a reference to the db schema
-let contact = require('../models/contact');
+let favourite = require('../models/favourite');
 
-/* GET Contact List page - READ Operation */
+/* GET favourite List page - READ Operation */
 router.get('/', (req, res, next) => {
-    contact.find((err, contactList) => {
+    favourite.find((err, favouriteList) => {
         if (err) {
             return console.error(err);
         } else {
-            //   console.log(contactList);
+            console.log(favouriteList);
 
-            res.render('contacts/index', {
-                title: 'Contact List',
-                contactList: contactList
+            res.render('favourites/index', {
+                title: 'Favourite List',
+                favouriteList: favouriteList
             });
 
         }
