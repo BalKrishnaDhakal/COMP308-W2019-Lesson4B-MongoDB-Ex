@@ -13,7 +13,7 @@ router.get('/', (req, res, next) => {
         } else {
             console.log(favouriteList);
 
-            res.render('favourites/index', {
+            res.render('favourite/index', {
                 title: 'Favourite List',
                 favouriteList: favouriteList
             });
